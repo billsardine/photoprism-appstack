@@ -127,7 +127,7 @@ services:
   #     MARIADB_ROOT_PASSWORD: "insecure"
   mariadb:
     image: lscr.io/linuxserver/mariadb:latest
-    container_name: photodb
+#    container_name: photodb
     environment:
       - PUID=1000
       - PGID=1000
