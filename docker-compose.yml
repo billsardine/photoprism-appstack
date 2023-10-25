@@ -140,6 +140,6 @@ services:
 #    command:  --innodb-buffer-pool-size=1G
     volumes:
       - ./mariadb/config:/config
-    ports:
-      - 3306:3306
+#    ports:
+#      - 3306:3306
     restart: unless-stopped
